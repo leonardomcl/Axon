@@ -1,0 +1,100 @@
+object FChat: TFChat
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu]
+  BorderStyle = Single
+  Caption = 'Axon - Cliente [Mensagens]'
+  ClientHeight = 480
+  ClientWidth = 840
+  Position = DesktopCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object MReceivedMessage: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    CheckSpelling = True
+    DataDetectorTypes = [Link]
+    ReadOnly = True
+    StyledSettings = [Style]
+    TextSettings.Font.Family = 'Fira Code'
+    TextSettings.Font.Size = 14.000000000000000000
+    TextSettings.FontColor = claIndigo
+    TextSettings.WordWrap = True
+    Align = Top
+    Cursor = crHandPoint
+    PopupMenu = PopupMenu1
+    Size.Width = 840.000000000000000000
+    Size.Height = 369.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Viewport.Width = 836.000000000000000000
+    Viewport.Height = 365.000000000000000000
+  end
+  object GroupBox1: TGroupBox
+    Align = Client
+    StyledSettings = [FontColor, Other]
+    Size.Width = 840.000000000000000000
+    Size.Height = 111.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Enviar Mensagem'
+    TextSettings.Font.Family = 'Fira Code'
+    TextSettings.Font.Size = 14.000000000000000000
+    TabOrder = 1
+    object MMessage: TMemo
+      Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+      DataDetectorTypes = [Link]
+      StyledSettings = [Style, FontColor]
+      TextSettings.Font.Family = 'Fira Code'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.WordWrap = True
+      Align = Left
+      Margins.Left = 4.000000000000000000
+      Margins.Top = 20.000000000000000000
+      Margins.Right = 2.000000000000000000
+      Margins.Bottom = 10.000000000000000000
+      Position.X = 4.000000000000000000
+      Position.Y = 20.000000000000000000
+      Size.Width = 765.000000000000000000
+      Size.Height = 81.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 38
+      Viewport.Width = 761.000000000000000000
+      Viewport.Height = 77.000000000000000000
+    end
+    object SendTextMessage: TCornerButton
+      Align = FitRight
+      Margins.Top = 20.000000000000000000
+      Margins.Right = 4.000000000000000000
+      Margins.Bottom = 10.000000000000000000
+      Position.X = 771.000000000000000000
+      Position.Y = 20.000000000000000000
+      Sides = [Top, Left, Bottom, Right]
+      Size.Width = 65.000000000000000000
+      Size.Height = 81.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 39
+      Text = 'ENVIAR'
+      TextSettings.Trimming = None
+      XRadius = 3.000000000000000000
+      YRadius = 3.000000000000000000
+      OnClick = SendTextMessageClick
+    end
+  end
+  object PopupMenu1: TPopupMenu
+    Left = 288
+    Top = 144
+    object MenuItem1: TMenuItem
+      Text = 'Limpar'
+      OnClick = MenuItem1Click
+    end
+    object MenuItem2: TMenuItem
+      Text = 'Diminuir fonte'
+      OnClick = MenuItem2Click
+    end
+    object MenuItem3: TMenuItem
+      Text = 'Aumentar fonte'
+      OnClick = MenuItem3Click
+    end
+  end
+end
