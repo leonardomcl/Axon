@@ -1,6 +1,8 @@
 # Axon
 A powerful client-server application that enables seamless file sharing and real-time messaging in a single platform.
 
+https://github.com/user-attachments/assets/75fe35c5-b171-4478-b419-12ff1882abca
+
 ## ✨ Features
 
 ### 📤 File Transfer
