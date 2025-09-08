@@ -1,0 +1,185 @@
+object FSendFile: TFSendFile
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Axon - Servidor [FileUpload]'
+  ClientHeight = 436
+  ClientWidth = 776
+  Fill.Color = xFFE5E5E5
+  Fill.Kind = Solid
+  Position = DesktopCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnClose = FormClose
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object Layout1: TLayout
+    Align = Top
+    Size.Width = 776.000000000000000000
+    Size.Height = 409.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object RecFileUpload: TRectangle
+      Align = Right
+      Fill.Kind = Gradient
+      Fill.Gradient.Points = <
+        item
+          Color = xFFF4F8F4
+          Offset = 0.000000000000000000
+        end
+        item
+          Color = xFFCFE9E2
+          Offset = 1.000000000000000000
+        end>
+      Fill.Gradient.Style = Radial
+      Margins.Top = 20.000000000000000000
+      Margins.Right = 8.000000000000000000
+      Margins.Bottom = 10.000000000000000000
+      Position.X = 520.000000000000000000
+      Position.Y = 64.000000000000000000
+      Size.Width = 248.000000000000000000
+      Size.Height = 335.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = xFF12C594
+      Stroke.Thickness = 3.000000000000000000
+      Stroke.Dash = Dot
+      XRadius = 10.000000000000000000
+      YRadius = 10.000000000000000000
+      object Image1: TImage
+        MultiResBitmap.Height = 96
+        MultiResBitmap.Width = 96
+        MultiResBitmap = <
+          item
+            Width = 96
+            Height = 96
+            PNG = {
+              89504E470D0A1A0A0000000D4948445200000060000000600806000000E29877
+              380000000473424954080808087C0864880000037349444154789CEDDB4F881B
+              6518C7F1EFF326BA514A29FE6BA9080A1E8A0A96166C918214AC621514C4A3E0
+              41A8D9DAA34D8B22E365B3AD87DAAD09469022A86844D4C5EE6945F10FD6EDD5
+              9BA0222852FC7328650599BC9E3C145ADD4C66DE67627F9FE36E769E87F9263B
+              D96403222222222272B9B1B17FA23F1F2BD8E3FF63F6D058E73454B587AC8D02
+              385300670AE04C019C2980330510111111993E59D624CB9ADE6B4C62AA9767E3
+              CC71A2CD004F7AAF5254C37B81C2FAF307C09E07B6F1D09EDF38B5BCE2BD5211
+              E3BF1F5007BDEE7D989DE29F47708C39A1F108ED831FF92E36BEE90B3098DB42
+              1EBE02365CF0F518CF114677D37EF61B9FC58A99AE002FCF5D4B08A7815B2FFA
+              FDC80F84C60EDACF9C4DBB5871D3F35AD060700521BCCBA54E3E807133317F8F
+              858599748B4D667A028CFEE801BBD770CB5D84F383AAD729CB743C0BEA773B60
+              9D35DFDE6C2B7BEF5D6569F9CB0AB72A45FDAF01AFCCED25B745CCC6BDB38CC0
+              1E65B6F341257B95A4DE017A47B762A3CF8175C50E105789DCC3FEC3674ADDAB
+              44F50DD03BBA098B2B106F9AEC40F1672CBF8BF6733F95B358B9EA79113E99B5
+              207F7FF2930F609B89CD0F1964574F7EACF2D52F408CC6F9D66B98ED2CF1A8DB
+              19B55E27C6DA3DE2EBF72C68E3552F603C5DC1916FE3CC17B0F4F1A7151CBBB0
+              7ADD23FADDC788BC8359357BC51809E171DA9D372B397E01F509D0EF6E27DA67
+              18D5FEAE8EFC89D96E663BA72B9DB346F50870E2C866425CC1B831CDC0F80B0D
+              DBC1BE433FA6997769FE17E15EB68E465C4A77F2016C13795C62215B9F6EE6C5
+              F906C8B24068BD01DC997EB8DD4E63E66D8643D72722BE016E681D21F2B0DB7C
+              B307F8F5FBAEDB7C3CAF01BDEE13989D749B7F81B88FD9C3AF7A4CF609D09BDF
+              85C565B07ABC6E1FE35F10EE677FE793D4A3D30738F1E22D34F2AF81EB93CFFE
+              37A3D1EF349B3B79EAE0B729C7A6BD062C64EB09A345EA76F20142B8867CB4C8
+              B1631BFEFBC6258E4D3669386CD06CBD85C53B92CD1C97B1852B578729FFD92B
+              5D80B3DF1D071E4C36AF280B7BB8AEF552B271A9061536E9E792C7FCDC6E6AFE
+              7F095FE614C09902385300670AE04C019C2980330570A600CE14C09902385300
+              670AE04C019C2980888888935ABF5F0AE83D61A99602385300670AE04C019C29
+              8033051011117152EBD74900BD1624D55200670AE04C019C2980330570A60022
+              222222222289FD0DA269B29FCEBF619F0000000049454E44AE426082}
+            FileName = 
+              'C:\Users\leona\OneDrive\'#193'rea de Trabalho\shareFiles\serverFMX\im' +
+              'ages\icons8-upload-96.png'
+          end>
+        Align = Client
+        Cursor = crHandPoint
+        MarginWrapMode = Center
+        Size.Width = 248.000000000000000000
+        Size.Height = 335.000000000000000000
+        Size.PlatformDefault = False
+        WrapMode = Place
+        OnDragOver = Image1DragOver
+        OnDragDrop = Image1DragDrop
+        object Text1: TText
+          Align = Bottom
+          Position.Y = 312.000000000000000000
+          Size.Width = 248.000000000000000000
+          Size.Height = 23.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'FILE UPLOAD'
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+      end
+    end
+    object Label1: TLabel
+      Align = Top
+      StyledSettings = []
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 4.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 4.000000000000000000
+      Size.Width = 756.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Fira Code'
+      TextSettings.Font.Size = 26.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claForestgreen
+      TextSettings.HorzAlign = Center
+      Text = 'FILE UPLOAD/DOWNLOAD'
+      TabOrder = 1
+    end
+    object ListClientFiles: TListBox
+      Align = Client
+      Cursor = crArrow
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 20.000000000000000000
+      Margins.Right = 2.000000000000000000
+      Margins.Bottom = 10.000000000000000000
+      PopupMenu = PopupMenu1
+      Size.Width = 508.000000000000000000
+      Size.Height = 335.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'listboxstyle'
+      TabOrder = 15
+      DisableMouseWheel = True
+      AlternatingRowBackground = True
+      CanFocus = False
+      DisableFocusEffect = True
+      DefaultItemStyles.ItemStyle = 'listboxitemstyle'
+      DefaultItemStyles.GroupHeaderStyle = ''
+      DefaultItemStyles.GroupFooterStyle = ''
+      Sorted = True
+      Viewport.Width = 504.000000000000000000
+      Viewport.Height = 331.000000000000000000
+    end
+  end
+  object Layout2: TLayout
+    Align = Client
+    Size.Width = 776.000000000000000000
+    Size.Height = 27.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object ProgressFile: TProgressBar
+      Align = Client
+      Orientation = Horizontal
+      Margins.Left = 4.000000000000000000
+      Margins.Top = 4.000000000000000000
+      Margins.Right = 4.000000000000000000
+      Margins.Bottom = 4.000000000000000000
+      Size.Width = 768.000000000000000000
+      Size.Height = 19.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+  object PopupMenu1: TPopupMenu
+    Left = 330
+    Top = 112
+    object PopMenuItemRefresh: TMenuItem
+      Text = 'REFRESH'
+      OnClick = PopMenuItemRefreshClick
+    end
+    object PopMenuItemDownload: TMenuItem
+      Text = 'DOWNLOAD'
+      OnClick = PopMenuItemDownloadClick
+    end
+  end
+end

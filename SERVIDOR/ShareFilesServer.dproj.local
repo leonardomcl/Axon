@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2025/08/15 10:33:54.000.502,=C:\Users\leona\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/08/15 10:36:21.000.323,C:\Users\leona\OneDrive\Área de Trabalho\shareFiles\serverFMX\UPrincipal.fmx=C:\Users\leona\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2025/08/15 10:36:21.000.323,C:\Users\leona\OneDrive\Área de Trabalho\shareFiles\serverFMX\UPrincipal.pas=C:\Users\leona\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/08/15 10:36:29.000.788,C:\Users\leona\OneDrive\Área de Trabalho\shareFiles\serverFMX\ShareFilesServer.dproj=C:\Users\leona\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2025/08/15 13:26:11.000.852,=C:\Users\leona\OneDrive\Área de Trabalho\shareFiles\serverFMX\Unit1.pas</Transaction>
+    <Transaction>2025/08/15 13:27:08.000.175,C:\Users\leona\OneDrive\Área de Trabalho\shareFiles\serverFMX\UFunctions.pas=C:\Users\leona\OneDrive\Área de Trabalho\shareFiles\serverFMX\Unit1.pas</Transaction>
+    <Transaction>2025/08/15 13:44:07.000.880,=C:\Users\leona\OneDrive\Área de Trabalho\shareFiles\serverFMX\Unit1.pas</Transaction>
+    <Transaction>2025/08/15 13:47:25.000.905,C:\Users\leona\OneDrive\Área de Trabalho\shareFiles\serverFMX\UChat.fmx=C:\Users\leona\OneDrive\Área de Trabalho\shareFiles\serverFMX\Unit1.fmx</Transaction>
+    <Transaction>2025/08/15 13:47:25.000.905,C:\Users\leona\OneDrive\Área de Trabalho\shareFiles\serverFMX\UChat.pas=C:\Users\leona\OneDrive\Área de Trabalho\shareFiles\serverFMX\Unit1.pas</Transaction>
+    <Transaction>2025/08/15 14:39:45.000.344,=C:\Users\leona\OneDrive\Área de Trabalho\CodeRage2019-master\HtmlLabel\HtmlLabel.pas</Transaction>
+    <Transaction>2025/08/15 14:41:43.000.606,C:\Users\leona\OneDrive\Área de Trabalho\CodeRage2019-master\HtmlLabel\HtmlLabel.pas=</Transaction>
+    <Transaction>2025/08/16 08:13:03.000.851,=C:\Users\leona\OneDrive\Área de Trabalho\shareFiles\serverFMX\Unit1.pas</Transaction>
+    <Transaction>2025/08/16 08:19:29.000.097,C:\Users\leona\OneDrive\Área de Trabalho\shareFiles\serverFMX\Unit1.pas=C:\Users\leona\OneDrive\Área de Trabalho\shareFiles\serverFMX\USendFile.pas</Transaction>
+    <Transaction>2025/08/16 08:19:29.000.097,C:\Users\leona\OneDrive\Área de Trabalho\shareFiles\serverFMX\Unit1.fmx=C:\Users\leona\OneDrive\Área de Trabalho\shareFiles\serverFMX\USendFile.fmx</Transaction>
+    <Transaction>2025/08/21 12:53:19.000.352,=C:\Users\leona\OneDrive\Área de Trabalho\shareFiles\serverFMX\Unit1.pas</Transaction>
+    <Transaction>2025/08/23 09:20:05.000.637,=C:\Users\leona\OneDrive\Área de Trabalho\shareFiles\serverFMX\Unit1.pas</Transaction>
+    <Transaction>2025/08/23 09:20:29.000.877,C:\Users\leona\OneDrive\Área de Trabalho\shareFiles\serverFMX\Unit1.pas=C:\Users\leona\OneDrive\Área de Trabalho\shareFiles\serverFMX\Server.Types.pas</Transaction>
+    <Transaction>2025/08/23 09:22:22.000.493,=C:\Users\leona\OneDrive\Área de Trabalho\shareFiles\serverFMX\Unit1.pas</Transaction>
+    <Transaction>2025/08/23 09:22:47.000.684,C:\Users\leona\OneDrive\Área de Trabalho\shareFiles\serverFMX\Unit1.pas=C:\Users\leona\OneDrive\Área de Trabalho\shareFiles\serverFMX\Server.ClientManager.pas</Transaction>
+    <Transaction>2025/08/23 09:23:06.000.015,=C:\Users\leona\OneDrive\Área de Trabalho\shareFiles\serverFMX\Unit1.pas</Transaction>
+    <Transaction>2025/08/23 09:23:20.000.041,C:\Users\leona\OneDrive\Área de Trabalho\shareFiles\serverFMX\Unit1.pas=C:\Users\leona\OneDrive\Área de Trabalho\shareFiles\serverFMX\Server.Security.pas</Transaction>
+    <Transaction>2025/08/23 09:23:41.000.980,=C:\Users\leona\OneDrive\Área de Trabalho\shareFiles\serverFMX\Unit1.pas</Transaction>
+    <Transaction>2025/08/23 09:23:56.000.163,C:\Users\leona\OneDrive\Área de Trabalho\shareFiles\serverFMX\Unit1.pas=C:\Users\leona\OneDrive\Área de Trabalho\shareFiles\serverFMX\Server.ProtocolHandler.pas</Transaction>
+    <Transaction>2025/08/23 09:24:42.000.998,=C:\Users\leona\OneDrive\Área de Trabalho\shareFiles\serverFMX\Unit1.pas</Transaction>
+    <Transaction>2025/08/23 09:24:57.000.224,C:\Users\leona\OneDrive\Área de Trabalho\shareFiles\serverFMX\Unit1.pas=C:\Users\leona\OneDrive\Área de Trabalho\shareFiles\serverFMX\Server.Core.pas</Transaction>
+    <Transaction>2025/08/23 09:37:26.000.416,=C:\Users\leona\OneDrive\Área de Trabalho\shareFiles\serverFMX\Unit1.pas</Transaction>
+    <Transaction>2025/08/23 09:37:41.000.392,C:\Users\leona\OneDrive\Área de Trabalho\shareFiles\serverFMX\Unit1.pas=C:\Users\leona\OneDrive\Área de Trabalho\shareFiles\serverFMX\Server.MessageManager.pas</Transaction>
+    <Transaction>2025/08/25 07:14:46.000.147,C:\Users\leona\OneDrive\Área de Trabalho\shareFiles\serverFMX\Functions.pas=C:\Users\leona\OneDrive\Área de Trabalho\shareFiles\serverFMX\UFunctions.pas</Transaction>
+    <Transaction>2025/09/04 07:52:00.000.541,=C:\Users\leona\OneDrive\Área de Trabalho\shareFiles\serverFMX\Unit1.pas</Transaction>
+    <Transaction>2025/09/04 07:52:51.000.873,C:\Users\leona\OneDrive\Área de Trabalho\shareFiles\serverFMX\Unit1.pas=C:\Users\leona\OneDrive\Área de Trabalho\shareFiles\serverFMX\FileStreamHelper.pas</Transaction>
+  </Transactions>
+</BorlandProject>
